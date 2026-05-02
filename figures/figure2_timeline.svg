@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" width="720" height="460" font-family="Helvetica, Arial, sans-serif">
+  <style>
+    .t  { font-size: 14px; font-weight: 500; fill: #1A1A1A; }
+    .ts { font-size: 12px; font-weight: 400; fill: #555555; }
+    .figtitle { font-size: 16px; font-weight: 600; fill: #1A1A1A; }
+  </style>
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="460" fill="#FFFFFF"/>
+
+  <text class="figtitle" x="40" y="38">Figure 2. Trigger discrimination — local tissue pH over time</text>
+  <text class="ts" x="40" y="58">Why exercise-induced acidosis does not activate the implant, but a sustained seizure does</text>
+
+  <!-- Trigger zone shading (below threshold) -->
+  <rect x="80" y="241" width="540" height="69" fill="#F09595" opacity="0.18"/>
+  <text class="ts" x="610" y="306" text-anchor="end" fill="#A32D2D">Activation zone (matrix erodes)</text>
+
+  <!-- Plot frame -->
+  <line x1="80" y1="80" x2="80" y2="310" stroke="#3D3D3A" stroke-width="0.8"/>
+  <line x1="80" y1="310" x2="620" y2="310" stroke="#3D3D3A" stroke-width="0.8"/>
+
+  <!-- Y-axis grid + ticks -->
+  <line x1="80" y1="117" x2="620" y2="117" stroke="#888780" stroke-width="0.3" opacity="0.35"/>
+  <text class="ts" x="74" y="121" text-anchor="end">7.4</text>
+  <line x1="80" y1="172" x2="620" y2="172" stroke="#888780" stroke-width="0.3" opacity="0.35"/>
+  <text class="ts" x="74" y="176" text-anchor="end">7.2</text>
+  <line x1="80" y1="227" x2="620" y2="227" stroke="#888780" stroke-width="0.3" opacity="0.35"/>
+  <text class="ts" x="74" y="231" text-anchor="end">7.0</text>
+  <line x1="80" y1="282" x2="620" y2="282" stroke="#888780" stroke-width="0.3" opacity="0.35"/>
+  <text class="ts" x="74" y="286" text-anchor="end">6.8</text>
+
+  <!-- Y-axis title -->
+  <text class="t" x="40" y="72">Tissue pH</text>
+
+  <!-- X-axis ticks -->
+  <text class="ts" x="80" y="328" text-anchor="middle">0</text>
+  <text class="ts" x="260" y="328" text-anchor="middle">5</text>
+  <text class="ts" x="440" y="328" text-anchor="middle">10</text>
+  <text class="ts" x="620" y="328" text-anchor="middle">15</text>
+  <text class="ts" x="350" y="348" text-anchor="middle">Minutes from event onset</text>
+
+  <!-- Threshold line -->
+  <line x1="80" y1="241" x2="620" y2="241" stroke="#A32D2D" stroke-width="0.8" stroke-dasharray="4 3" opacity="0.7"/>
+  <text class="ts" x="610" y="236" text-anchor="end" fill="#A32D2D">Eudragit S100 erosion threshold (pH 6.95)</text>
+
+  <!-- Normal: flat at pH 7.4 -->
+  <polyline points="80,117 200,116 350,118 500,116 620,117"
+            fill="none" stroke="#888780" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- HIIT: dips to ~7.15 then recovers -->
+  <polyline points="80,117 110,120 145,140 175,165 215,185 260,195 305,200 350,180 400,155 450,135 510,122 580,118 620,117"
+            fill="none" stroke="#EF9F27" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Seizure: rapid sustained drop -->
+  <polyline points="80,117 92,128 110,160 130,200 155,235 185,260 220,275 270,288 340,295 420,297 510,298 620,300"
+            fill="none" stroke="#E24B4A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Vertical marker at threshold crossing -->
+  <line x1="158" y1="241" x2="158" y2="310" stroke="#E24B4A" stroke-width="0.8" stroke-dasharray="3 2" opacity="0.75"/>
+  <text class="ts" x="162" y="208" fill="#E24B4A">drug release</text>
+  <text class="ts" x="162" y="222" fill="#E24B4A">begins (≈ min 2)</text>
+
+  <!-- Annotation: buffer absorbs HIIT acidosis -->
+  <line x1="265" y1="195" x2="265" y2="155" stroke="#0F6E56" stroke-width="0.6" stroke-dasharray="2 2"/>
+  <text class="ts" x="270" y="146" fill="#0F6E56">HIIT plateau:</text>
+  <text class="ts" x="270" y="160" fill="#0F6E56">buffer compensates</text>
+
+  <!-- Legend -->
+  <rect x="40" y="395" width="640" height="48" fill="#F8F7F2" stroke="#D3D1C7" stroke-width="0.5" rx="6"/>
+
+  <line x1="60" y1="412" x2="86" y2="412" stroke="#888780" stroke-width="2.6" stroke-linecap="round"/>
+  <text class="t" x="92" y="416">Normal rest</text>
+  <text class="ts" x="92" y="432">no acidosis</text>
+
+  <line x1="240" y1="412" x2="266" y2="412" stroke="#EF9F27" stroke-width="2.6" stroke-linecap="round"/>
+  <text class="t" x="272" y="416">HIIT exercise</text>
+  <text class="ts" x="272" y="432">transient pH dip, full recovery</text>
+
+  <line x1="475" y1="412" x2="501" y2="412" stroke="#E24B4A" stroke-width="2.6" stroke-linecap="round"/>
+  <text class="t" x="507" y="416">Generalized seizure</text>
+  <text class="ts" x="507" y="432">rapid sustained acidosis → trigger</text>
+</svg>

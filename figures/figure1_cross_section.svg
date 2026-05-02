@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 620" width="720" height="620" font-family="Helvetica, Arial, sans-serif">
+  <style>
+    .t  { font-size: 14px; font-weight: 500; fill: #1A1A1A; }
+    .ts { font-size: 12px; font-weight: 400; fill: #555555; }
+    .figtitle { font-size: 16px; font-weight: 600; fill: #1A1A1A; }
+    .leader { stroke: #888888; stroke-width: 0.6; stroke-dasharray: 3 2; fill: none; }
+    .arr { stroke: #1A1A1A; stroke-width: 1.5; fill: none; stroke-linecap: round; }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="620" fill="#FFFFFF"/>
+
+  <text class="figtitle" x="40" y="38">Figure 1. ChemGuard implant — cross-sectional schematic</text>
+  <text class="ts" x="40" y="58">Subcutaneous, ~25 mm length, electronics-free pH-triggered drug delivery</text>
+
+  <!-- Outer biocompatible silicone shell -->
+  <rect x="120" y="100" width="120" height="460" rx="60" fill="#F4F2EC" stroke="#3D3D3A" stroke-width="1.4"/>
+
+  <!-- Sentinel buffer chamber (light blue) -->
+  <rect x="128" y="108" width="104" height="444" rx="52" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.6"/>
+
+  <!-- pH-responsive Eudragit polymer (amber) -->
+  <rect x="142" y="122" width="76" height="416" rx="38" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.6"/>
+
+  <!-- Drug reservoir (teal) -->
+  <rect x="152" y="132" width="56" height="396" rx="28" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.6"/>
+
+  <!-- Buffer ions in sentinel chamber (small blue dots) -->
+  <g fill="#185FA5" opacity="0.55">
+    <circle cx="135" cy="160" r="1.4"/>
+    <circle cx="225" cy="180" r="1.4"/>
+    <circle cx="135" cy="220" r="1.4"/>
+    <circle cx="225" cy="260" r="1.4"/>
+    <circle cx="135" cy="310" r="1.4"/>
+    <circle cx="225" cy="340" r="1.4"/>
+    <circle cx="135" cy="400" r="1.4"/>
+    <circle cx="225" cy="430" r="1.4"/>
+    <circle cx="135" cy="490" r="1.4"/>
+    <circle cx="225" cy="520" r="1.4"/>
+  </g>
+
+  <!-- Drug molecules in reservoir (small teal dots) -->
+  <g fill="#0F6E56" opacity="0.65">
+    <circle cx="170" cy="180" r="1.6"/>
+    <circle cx="190" cy="220" r="1.6"/>
+    <circle cx="175" cy="260" r="1.6"/>
+    <circle cx="195" cy="300" r="1.6"/>
+    <circle cx="170" cy="340" r="1.6"/>
+    <circle cx="185" cy="380" r="1.6"/>
+    <circle cx="195" cy="420" r="1.6"/>
+    <circle cx="170" cy="460" r="1.6"/>
+    <circle cx="190" cy="500" r="1.6"/>
+  </g>
+
+  <!-- Rate-controlled exit membrane (purple band) -->
+  <rect x="158" y="134" width="44" height="4" rx="1" fill="#7F77DD"/>
+
+  <!-- Drug release orifice -->
+  <rect x="174" y="96" width="12" height="6" fill="#FFFFFF" stroke="#3D3D3A" stroke-width="0.8"/>
+
+  <!-- Release arrow -->
+  <line x1="180" y1="94" x2="180" y2="72" class="arr" marker-end="url(#arrow)"/>
+  <text class="ts" x="195" y="80">Drug efflux</text>
+
+  <!-- Porous wall indicators on right outer shell -->
+  <g fill="#E6F1FB" stroke="#3D3D3A" stroke-width="0.4">
+    <circle cx="240" cy="200" r="1.8"/>
+    <circle cx="240" cy="240" r="1.8"/>
+    <circle cx="240" cy="280" r="1.8"/>
+    <circle cx="240" cy="320" r="1.8"/>
+    <circle cx="240" cy="360" r="1.8"/>
+    <circle cx="240" cy="400" r="1.8"/>
+    <circle cx="240" cy="440" r="1.8"/>
+  </g>
+
+  <!-- H+ ingress arrows -->
+  <line x1="280" y1="240" x2="246" y2="240" class="arr" stroke="#A32D2D" marker-end="url(#arrow)"/>
+  <line x1="280" y1="400" x2="246" y2="400" class="arr" stroke="#A32D2D" marker-end="url(#arrow)"/>
+  <text class="ts" x="286" y="234" fill="#A32D2D">H<tspan font-size="9" dy="-3">+</tspan></text>
+  <text class="ts" x="286" y="394" fill="#A32D2D">H<tspan font-size="9" dy="-3">+</tspan></text>
+
+  <!-- Labels with leaders -->
+  <line class="leader" x1="186" y1="84" x2="380" y2="92"/>
+  <circle cx="186" cy="84" r="1.6" fill="#3D3D3A"/>
+  <text class="t" x="386" y="92">Drug release orifice</text>
+  <text class="ts" x="386" y="108">Single exit port, distal end</text>
+
+  <line class="leader" x1="200" y1="136" x2="380" y2="152"/>
+  <circle cx="200" cy="136" r="1.6" fill="#3D3D3A"/>
+  <text class="t" x="386" y="152">Rate-controlled membrane</text>
+  <text class="ts" x="386" y="168">Caps efflux at safe pharmacokinetics</text>
+
+  <line class="leader" x1="240" y1="200" x2="380" y2="212"/>
+  <circle cx="240" cy="200" r="1.6" fill="#3D3D3A"/>
+  <text class="t" x="386" y="212">Biocompatible silicone shell</text>
+  <text class="ts" x="386" y="228">PTFE-lined, porous on sensing face</text>
+
+  <line class="leader" x1="232" y1="290" x2="380" y2="290"/>
+  <circle cx="232" cy="290" r="1.6" fill="#3D3D3A"/>
+  <text class="t" x="386" y="290">Sentinel buffer chamber</text>
+  <text class="ts" x="386" y="306">Bicarbonate; absorbs brief acidosis</text>
+
+  <line class="leader" x1="218" y1="370" x2="380" y2="362"/>
+  <circle cx="218" cy="370" r="1.6" fill="#3D3D3A"/>
+  <text class="t" x="386" y="362">pH-responsive polymer barrier</text>
+  <text class="ts" x="386" y="378">Eudragit S100; erodes when pH &lt; 6.95</text>
+
+  <line class="leader" x1="208" y1="450" x2="380" y2="430"/>
+  <circle cx="208" cy="450" r="1.6" fill="#3D3D3A"/>
+  <text class="t" x="386" y="430">Drug payload</text>
+  <text class="ts" x="386" y="446">Midazolam · atropine</text>
+
+  <!-- Scale bar -->
+  <line x1="120" y1="580" x2="240" y2="580" stroke="#3D3D3A" stroke-width="0.8"/>
+  <line x1="120" y1="576" x2="120" y2="584" stroke="#3D3D3A" stroke-width="0.8"/>
+  <line x1="240" y1="576" x2="240" y2="584" stroke="#3D3D3A" stroke-width="0.8"/>
+  <text class="ts" x="180" y="600" text-anchor="middle">≈ 25 mm</text>
+
+  <!-- Tissue acidosis label on right -->
+  <text class="ts" x="312" y="244" fill="#A32D2D">tissue acidosis</text>
+  <text class="ts" x="312" y="404" fill="#A32D2D">tissue acidosis</text>
+</svg>
