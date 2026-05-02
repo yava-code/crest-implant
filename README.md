@@ -2,7 +2,7 @@
 
 **C**ontrolled **R**elease **E**mergency **S**eizure **T**herapy — an electronics-free, pH-triggered subcutaneous implant concept for autonomous seizure rescue.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19976598.svg)](https://doi.org/10.5281/zenodo.19976598)
 ![Status](https://img.shields.io/badge/status-concept%20note-orange)
 ![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue)
 
@@ -99,8 +99,8 @@ crest-implant/
                for emergency seizure rescue},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.19976598},
+  url       = {https://doi.org/10.5281/zenodo.19976598}
 }
 ```
 
