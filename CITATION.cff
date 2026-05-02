@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you reference this concept, please cite it as below."
+type: software
+title: "CREST: an electronics-free, pH-triggered subcutaneous implant for emergency seizure rescue"
+abstract: >
+  Concept note for a fully mechanical subcutaneous implant that uses
+  seizure-induced lactic acidosis as a chemical trigger for emergency
+  benzodiazepine release. A bicarbonate sentinel buffer discriminates
+  between short-duration exercise acidosis and sustained ictal acidosis.
+  Pre-prototype stage; no animal or clinical data.
+authors:
+  - family-names: Yasenovyi
+    given-names: Varfolomii
+    orcid: ""
+    affiliation: "Independent researcher, Warsaw, Poland"
+keywords:
+  - epilepsy
+  - status epilepticus
+  - drug delivery
+  - pH-responsive polymer
+  - Eudragit S100
+  - midazolam
+  - medical device
+  - bioengineering
+license: CC-BY-4.0
+date-released: "2026-05-02"
+version: "2.0"
+doi: 10.5281/zenodo.XXXXXXX
+url: "https://doi.org/10.5281/zenodo.XXXXXXX"
+repository-code: "https://github.com/yava-code/crest-implant"
