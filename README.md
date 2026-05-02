@@ -1,5 +1,5 @@
 # CREST
-Authors: Yasenovyi Varfolomii and Yelyzaveta Pavlova
+## Authors: Yasenovyi Varfolomii and Yelyzaveta Pavlova
 **C**ontrolled **R**elease **E**mergency **S**eizure **T**herapy — an electronics-free, pH-triggered subcutaneous implant concept for autonomous seizure rescue.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19976598.svg)](https://doi.org/10.5281/zenodo.19976598)
